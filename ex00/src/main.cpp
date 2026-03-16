@@ -9,5 +9,6 @@ int main(void)
    Zombie* heapZombie = newZombie("Heap_Zombie");
    heapZombie->announce();
 
-   std::cout << "Deleting heap zombie manually";
+   std::cout << "Deleting heap zombie manually" << std::endl;
+   return (0);
 }
