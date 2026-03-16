@@ -3,7 +3,9 @@ SRC_DIR	= src
 INC_DIR	= include
 OBJ_DIR	= obj
 
-SRC = 
+SRC = 	main.cpp \
+		Zombie.cpp\
+		zombieHorde.cpp\
 
 OBJ = $(addprefix $(OBJ_DIR)/, $(SRC:.cpp=.o))
 
