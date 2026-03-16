@@ -1,19 +1,18 @@
-NAME        = zombie
-SRC_DIR     = src
-INC_DIR     = include
-OBJ_DIR     = obj
+NAME = zombie
+SRC_DIR	= src
+INC_DIR	= include
+OBJ_DIR	= obj
 
+SRC = 	main.cpp \
+		newZombie.cpp \
+		randomChump.cpp \
+		Zombie.cpp \
 
-SRC         = 	main.cpp \
-				newZombie.cpp \
-				randomChump.cpp \
-				Zombie.cpp \
+OBJ = $(addprefix $(OBJ_DIR)/, $(SRC:.cpp=.o))
 
-OBJ         = $(addprefix $(OBJ_DIR)/, $(SRC:.cpp=.o))
-
-CC          = c++
-FLAGS       = -Wall -Wextra -Werror -std=c++98
-IFLAGS      = -I $(INC_DIR)
+CC = c++
+FLAGS = -Wall -Wextra -Werror -std=c++98
+IFLAGS = -I $(INC_DIR)
 
 all: $(NAME)
 
