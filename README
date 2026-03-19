@@ -1,0 +1,45 @@
+CPP Module 01 - Memory Allocation, Pointers to Members, File Streams
+This module of the C++ pool at 42 School focuses on deepening the understanding of memory management, the difference between pointers and references, and the usage of file streams and pointers to member functions.
+
+📋 Projects Overview
+Ex00: BraiiiiiiinnnzzzZ
+
+Goal: Learn about Stack vs Heap allocation.
+
+Key Concept: Understanding when an object should be allocated on the stack (automatic destruction) or the heap (manual management using new and delete).
+
+Ex01: Moar Brainz!
+
+Goal: Allocate an array of objects.
+
+Key Concept: Using new[] to allocate a "Horde" of Zombies and ensuring a single delete[] is used to prevent memory leaks.
+
+Ex02: HI THIS IS BRAIN
+
+Goal: Compare Pointers and References.
+
+Key Concept: Understanding that a Reference is just an alias to an existing variable, while a Pointer is a variable that stores a memory address.
+
+Ex03: Unnecessary Violence
+
+Goal: Use pointers and references as class attributes.
+
+Key Concept: HumanA uses a Reference (must have a weapon at all times), while HumanB uses a Pointer (can start unarmed and change weapons later).
+
+Ex04: Sed is for Losers
+
+Goal: File manipulation and string replacement.
+
+Key Concept: Using std::ifstream and std::ofstream to read a file and create a .replace copy without using the forbidden std::string::replace function.
+
+Ex05: Harl 2.0
+
+Goal: Avoid "if/else" forests.
+
+Key Concept: Implementing Pointers to Member Functions. Using an array of pointers to jump directly to the correct private method (debug, info, warning, error).
+
+Ex06: Harl Filter
+
+Goal: Implement a log level filter.
+
+Key Concept: Using the switch statement with fall-through logic to display messages of a certain severity level and everything above it.
